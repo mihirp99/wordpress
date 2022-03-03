@@ -18,3 +18,204 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned
 with others.
 */
+body{
+    font-family: 'Lato', sans-serif;
+}
+a {text-decoration: none; color: #000;}
+a:hover{text-decoration: none;}
+h1, h2, h3, h4, h5, h6{font-family: 'Poppins', sans-serif;}
+
+header{
+    padding: 35px 0px;
+}
+.top-info{
+    display: contents;
+}
+
+.top-icon{
+    float: left;
+    width: 20%;
+
+}
+
+.top-text {
+    float: right;
+    width: 80%;
+}
+
+.top-text h2{
+    font-size: 20px;
+}
+
+.top-text p{
+    font-size: 16px;
+    line-height: 0.7;
+
+}
+
+.order-now{
+    background-color: #ff3548 !important;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+.home-slider{
+    background: rgba(0,0,0,0) url(../img/priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg) no-repeat fixed 50% 0;
+    color: #fff;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    background-size: cover;
+}
+
+.opacity{
+    background: rgba(0, 0, 0, 0.616) repeat scroll center;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.slider-content{ height: 600px; position: relative; z-index: 1;}
+
+.slider-content h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+}
+.slider-content p{columns: #fff;}
+.slider-content a{border: 2px solid;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0px;
+    margin-top: 60px;
+}
+
+.slider-content a:hover{}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 3.5rem !important;
+    padding-left: 2.5rem !important;
+} 
+
+.search-icon {
+    padding-left: 20rem;
+}
+
+a.nav-link {
+    text-transform: uppercase;
+}
+
+.navbar{margin-top: 30px;}
+
+.card{
+    border: none !important;
+}
+
+.second-content{
+    margin-top: 20pxs;
+}
+
+.second-content h1{
+    margin-top: 100px;
+    font-weight: 600;
+}
+
+.second-content p{
+    margin-top: 70px;
+    margin-bottom: 111px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.third-img {
+    text-align: center;
+}
+
+section.third-section {
+    margin-top: 100px;
+}
+
+.third-signature img {
+    float: right;
+    margin-top: -115px;
+    margin-right: 136px;
+}
+
+.third-signature {
+    margin-top: 51px;
+}
+
+
+.third-content {
+    padding: 0px 124px 4px 0px;
+}
+
+.four-section{
+    background: url(../img/bg-four.jpg) no-repeat;
+    height: 383px;
+    margin: 0 auto;
+    padding: 0;
+    background-position: center;
+    width: 100%;
+    color: #fff;
+}
+
+.four-content {
+    text-align: center;
+}
+
+.four-content strong{
+    font-size: 40px;
+}
+.step-1 img {
+    width: 74px;
+    margin-bottom: 30px;
+}
+.step-2 img {
+    width: 101px;
+    margin-bottom: 30px;
+}
+
+.step-3 img {
+    width: 79px;
+    margin-bottom: 30px;
+}
+.step-4 img {
+    width: 76px;
+    margin-bottom: 30px;
+}
+
+.check-content{
+    margin-top: 85px;
+    margin-bottom: 108px;
+}
+
+.check-img {
+    padding-left: 125px;
+}
+.customer-content{
+    margin-top: 85px;
+    margin-bottom: 108px;
+}
+.customer-content h1{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.our-customer{
+    background: rgba(0,0,0,0) url(../img/towfiqu-barbhuiya-998DibZwpIc-unsplash.jpg) no-repeat 50% 0;
+    color: #fff;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
